@@ -29,7 +29,8 @@ export const CartSlice = createSlice({
             itemToUpdate.quantity = quantity; // If the item is found, update its quantity to the new value
 
     
-    },
+    }
+  }, 
   },
 });
 
